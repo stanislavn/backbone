@@ -18,6 +18,7 @@ CSRF_TRUSTED_ORIGINS = [
     "127.0.0.1",
     "app.nadzam.ml",
     "https://*.nadzam.ml",
+    "https://app.nadzam.ml",
 ]
 # CACHES
 # ------------------------------------------------------------------------------
