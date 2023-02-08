@@ -13,10 +13,11 @@ SECRET_KEY = env(
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1", "app.nadzam.ml"]
 CSRF_TRUSTED_ORIGINS = [
-    "localhost",
-    "0.0.0.0",
-    "127.0.0.1",
-    "app.nadzam.ml",
+    "http://localhost",
+    "http://0.0.0.0",
+    "http://127.0.0.1",
+    "http://app.nadzam.ml",
+    "https://app.nadzam.ml",
     "https://*.nadzam.ml",
     "https://app.nadzam.ml",
 ]
